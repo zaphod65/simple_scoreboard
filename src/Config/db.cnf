@@ -1,0 +1,4 @@
+HOST=localhost
+DATABASE=scores
+USER=root
+PASS=

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Top 50 scores!</title>
+        <script type="text/javascript" src="static/jquery-3.2.1.js" ></script>
+        <script type="text/javascript" src="static/scores.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "static/style.css" />
+    </head>
+    <body>
+        <h1>Top scores</h1>
+        <label>Level:
+            <select id="levelSelect" onchange="selectChange(this);">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </label>
+        <table>
+            <thead><td>Position</td><td>User name</td><td>Time</td></thead>
+            <tbody id="scoresList"></tbody>
+        </table>
+    </body>
+</html>
